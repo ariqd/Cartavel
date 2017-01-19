@@ -1,0 +1,53 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-top: 65px;
+  margin-bottom: 45px;
+}
+.no-padding{
+    padding: 0;
+}
+.navbar-right{
+    padding-right: 15px;
+}
+.jumbotron{
+    height: 350px;
+}
+.panel-home{
+    height: 300px;
+    overflow-y: auto;
+}
+.nav-categories li a:hover{
+    border-radius: 0;
+}
+.blog .blog-title{
+    margin-top: 0;
+    color: #000;
+}
+.blog .blog-description, .blog p{
+    color: #000;
+    text-decoration: none;
+}
+.dropdown-login{
+  margin: 0 5px;
+}
+.dropdown-login .dropdown-login-menu{
+  width: 300px;
+  padding: 20px;
+}
+img.cart-img{
+    max-width: 100px;
+    max-height: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 45px;
+  background-color: #fff;
+  border-top: 1px solid #E0E0E0;
+}
